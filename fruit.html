@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested Ordered List</title>
+    <style>
+        /* Creates the blue border frame around the content */
+        .outer-box {
+            border: 2px solid #3a75c4; /* Medium blue color */
+            padding: 25px 40px;
+            display: inline-block; /* Fits the box to the text size */
+            font-family: 'Times New Roman', Times, serif; /* Serif font family */
+            font-size: 1.3rem;
+        }
+        ol {
+            margin: 0;
+            padding-left: 35px; /* Sets the indentation for each sub-level */
+        }
+        li {
+            margin-bottom: 3px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="outer-box">
+        <ol>
+            <li>Fruits
+                <ol>
+                    <li>Mango</li>
+                    <li>Orange</li>
+                </ol>
+            </li>
+            <li>Vegetables
+                <ol>
+                    <li>Cabbage</li>
+                    <li>Capsicum
+                        <ol>
+                            <li>Green Capsicum</li>
+                            <li>Yellow Capsicum</li>
+                            <li>Red Capsicum</li>
+                        </ol>
+                    </li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+
+</body>
+</html
